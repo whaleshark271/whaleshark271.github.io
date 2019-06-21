@@ -85,6 +85,12 @@ header {
     color: white;
 }
 
+@media only screen and (max-device-width: 800px) {
+  header {
+    padding: 20px;
+  }
+}
+
 header h1 {
     font-size: 53px;
     font-weight: bold;
