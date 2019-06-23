@@ -4,6 +4,7 @@
 * 02. Sidebar Navigation
 * 03. Header
 * 04. Sections
+* 05. Skill Sections
 */
 
 /*
@@ -156,7 +157,55 @@ header h2 {
 * 04. Sections
 * ==============================
 */
+section {
+  padding: 20px 0;
+}
+
 .bg_black {
     background-color: black;
     color: white;
 }
+
+section h1 {
+    text-align: center;
+    color: #1abc9c;
+}
+
+/* Center image*/
+.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+* ==============================
+* 05. Skills Section
+* ==============================
+*/
+#skills p {
+  margin-bottom: 0px; /* Make p stick to skill bar*/
+}
+
+.skill_bar {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skill_text {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  padding-right: 10px;
+  margin-bottom: 20px; /* Space between skill bars*/
+  color: white; /* White text color */
+}
+
+.chinese {width: 100%; background-color: #1abc9c;}
+.english {width: 90%; background-color: #1abc9c;}
+.german {width: 30%; background-color: #1abc9c;}
+.c {width: 80%; background-color: #1a75ff;}
+.website {width: 70%; background-color: #1a75ff;}
+.python {width: 60%; background-color: #1a75ff;}
+.infosec {width: 20%; background-color: #a366ff;}
+.ml {width: 20%; background-color: #a366ff;}
