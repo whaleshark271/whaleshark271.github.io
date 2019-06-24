@@ -183,6 +183,28 @@ section h1 {
 * 05. Skills Section
 * ==============================
 */
+/* Open/Close skill content button*/
+[aria-expanded="false"] .skillContent_open {
+    display: inline;
+}
+  
+[aria-expanded="false"] .skillContent_close {
+    display: none;
+}
+  
+[aria-expanded="true"] .skillContent_open {
+    display: none;
+}
+  
+[aria-expanded="true"] .skillContent_close {
+    display: inline;
+}
+
+/*Center align skill content button*/
+#skills .wrapper {
+    text-align: center;
+}
+
 #skills p {
   margin-bottom: 0px; /* Make p stick to skill bar*/
 }

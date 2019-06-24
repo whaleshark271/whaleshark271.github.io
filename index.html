@@ -67,51 +67,59 @@
         </section>
         <section id="skills" class="bg_black">
             <h1>Skills</h1>
-            <div class="container">
-              <!-- Language skills-->
-              <div class="row">
-                <div class="col-md-4">
-                  <h2>Languages</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>Chinese</p>
-                    <div class="skill_bar">
-                        <div class="skill_text chinese">Native Language 100%</div>
-                    </div>
-                      
-                    <p>English</p>
-                    <div class="skill_bar">
-                      <div class="skill_text english">Proficient 90%</div>
-                    </div>
-                      
-                    <p>German</p>
-                    <div class="skill_bar">
-                      <div class="skill_text german">Basic 30%</div>
-                    </div>
-                </div>
-              </div>
+            <div class="wrapper">
+            <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#skill_content" aria-expanded="false" aria-controls="skill_content">
+              <i class="fas fa-angle-down skillContent_open"></i>
+              <i class="fas fa-angle-up skillContent_close"></i>
+            </button>
+            </div>
 
-              <!-- Programming skills-->
-              <div class="row">
+            <div class="collapse" id="skill_content">
+              <div class="container">
+                <!-- Language skills-->
+                <div class="row">
                   <div class="col-md-4">
-                    <h2>Programming</h2>
+                    <h2>Languages</h2>
                   </div>
                   <div class="col-md-8">
-                      <p>C/C++</p>
+                      <p>Chinese</p>
                       <div class="skill_bar">
-                          <div class="skill_text c">80%</div>
+                          <div class="skill_text chinese">Native Language 100%</div>
                       </div>
-                        
-                      <p>HTML/CSS/JS (Website)</p>
+                      
+                      <p>English</p>
                       <div class="skill_bar">
-                        <div class="skill_text website">70%</div>
+                        <div class="skill_text english">Proficient 90%</div>
                       </div>
-                        
-                      <p>Python</p>
+                      
+                      <p>German</p>
                       <div class="skill_bar">
-                        <div class="skill_text python">60%</div>
+                        <div class="skill_text german">Basic 30%</div>
                       </div>
                   </div>
+                </div>
+
+                <!-- Programming skills-->
+                <div class="row">
+                    <div class="col-md-4">
+                      <h2>Programming</h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p>C/C++</p>
+                        <div class="skill_bar">
+                            <div class="skill_text c">80%</div>
+                        </div>
+                        
+                        <p>HTML/CSS/JS (Website)</p>
+                        <div class="skill_bar">
+                          <div class="skill_text website">70%</div>
+                        </div>
+                        
+                        <p>Python</p>
+                        <div class="skill_bar">
+                          <div class="skill_text python">60%</div>
+                        </div>
+                      </div>
                 </div>
 
               <!-- CTF skills-->
@@ -133,6 +141,7 @@
                 </div>
 
             </div>
+          </div>
         </section>
         <section id="education">
             <h1>Education</h1>
