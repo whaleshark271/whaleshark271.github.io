@@ -6,6 +6,7 @@
 * 04. Sections
 * 05. About Section
 * 06. Experience Section
+* 07. Footer
 */
 
 /*
@@ -228,4 +229,20 @@ ul.timeline > li:before {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+/*
+* ==============================
+* 07. Footer
+* ==============================
+*/
+#page-footer {
+    background-color: #1abc9c;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#page-footer a {
+    color: white;
 }
