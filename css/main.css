@@ -6,7 +6,8 @@
 * 04. Sections
 * 05. About Section
 * 06. Experience Section
-* 07. Footer
+* 07. Project Section
+* 08. Footer
 */
 
 /*
@@ -238,7 +239,20 @@ ul.timeline > li:before {
 
 /*
 * ==============================
-* 07. Footer
+* 07. Project Section
+* ==============================
+*/
+#projects .card-deck {
+    margin: 20px 0;
+}
+
+#projects .card-deck .card button {
+    margin: 3px 0;
+}
+
+/*
+* ==============================
+* 08. Footer
 * ==============================
 */
 #page-footer {
